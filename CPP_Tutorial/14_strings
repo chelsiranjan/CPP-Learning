@@ -1,0 +1,90 @@
+// string concatenation
+
+string firstName = "John ";
+string lastName = "Doe";
+string fullName = firstName + lastName;
+cout << fullName;
+
+string firstName = "John";
+string lastName = "Doe";
+string fullName = firstName + " " + lastName;
+cout << fullName;
+
+// append() function
+
+string firstName = "John ";
+string lastName = "Doe";
+string fullName = firstName.append(lastName);
+cout << fullName;
+
+
+// C++ uses the + operator for both addition and concatenation.
+// Numbers are added. Strings are concatenated
+
+
+// length() function
+
+string txt = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+cout << "The length of the txt string is: " << txt.length();
+
+// size() function
+
+string txt = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+cout << "The length of the txt string is: " << txt.size();
+
+
+
+// accessing strings
+// String indexes start with 0: [0] is the first character. [1] is the second character, etc.
+
+string myString = "Hello";
+cout << myString[0];
+// Outputs H
+
+string myString = "Hello";
+cout << myString[myString.length() - 1];
+// Outputs o
+
+
+
+// change specific string characters
+// refer to index number and in single quotes
+
+string myString = "Hello";
+myString[0] = 'J';
+cout << myString;
+// Outputs Jello instead of Hello
+
+
+
+// at() function 
+// used to access characters in a string
+
+string myString = "Hello";
+cout << myString; // Outputs Hello
+
+cout << myString.at(0);  // First character
+cout << myString.at(1);  // Second character
+cout << myString.at(myString.length() - 1);  // Last character
+
+myString.at(0) = 'J';
+cout << myString;  // Outputs Jello
+
+
+
+// backslash escape character
+// backslash (\) escape character turns special characters into string characters
+
+\'	'	Single quote
+\"	"	Double quote
+\\	\	Backslash
+
+// sequence \"  inserts a double quote in a string
+string txt = "We are the so-called \"Vikings\" from the north.";
+// sequence \'  inserts a single quote in a string
+string txt = "It\'s alright.";
+// sequence \\  inserts a single backslash in a string
+string txt = "The character \\ is called backslash.";
+
+\n	New Line	
+\t	Tab

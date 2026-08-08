@@ -1,0 +1,110 @@
+// Arithmetic operators
+// Assignment operators
+// Comparison operators
+// Logical operators
+// Bitwise operators
+
+
+
+
+
++	Addition	      Adds together two values	                 x + y	
+-	Subtraction	      Subtracts one value from another	         x - y	
+*	Multiplication	  Multiplies two values	                     x * y	
+/	Division	      Divides one value by another	             x / y	
+%	Modulus	          Returns the division remainder	         x % y	
+++	Increment	      Increases the value of a variable by 1	 ++x	
+--	Decrement	      Decreases the value of a variable by 1	 --x
+
+// arithmatic operators used to perform mathematical operations
+
+int x = 10;
+int y = 3;
+cout << (x + y) << "\n"; // 13
+cout << (x - y) << "\n"; // 7
+cout << (x * y) << "\n"; // 30
+cout << (x / y) << "\n"; // 3 (integer division)
+cout << (x % y) << "\n"; // 1
+
+int z = 5;
+++z; // increment by 1
+cout << z << "\n";    // 6
+--z; // decrement by 1
+cout << z << "\n";    // 5
+
+int x = 10;
+int y = 3;
+cout << (x / y) << "\n";   // Integer division, result is 3
+
+double a = 10.0;
+double b = 3.0;
+cout << (a / b) << "\n";   // Decimal division, result is 3.333...
+
+
+
+
+// assignment operators are used to assign values to variables
+// addition compound assignment operator (+=) adds a value to a variable
+
+=	x = 5	x = 5	
++=	x += 3	x = x + 3	
+-=	x -= 3	x = x - 3	
+*=	x *= 3	x = x * 3	
+/=	x /= 3	x = x / 3	
+%=	x %= 3	x = x % 3	
+&=	x &= 3	x = x & 3	
+|=	x |= 3	x = x | 3	
+^=	x ^= 3	x = x ^ 3	
+>>=	x >>= 3	x = x >> 3	
+<<=	x <<= 3	x = x << 3
+
+// compound assignment operators are a shorter way of writing operations 
+// instead of writing x = x + 5, you can simply write x += 5
+
+
+
+
+// comparison operators are used to compare two values (or variables)
+// it helps us to find answers and make decisions
+// return value of a comparison is either 1 or 0, which means true (1) or false (0)
+
+==	Equal to	                x == y	
+!=	Not equal	                x != y	
+>	Greater than	            x > y	
+<	Less than	                x < y	
+>=	Greater than or equal to	x >= y	
+<=	Less than or equal to	    x <= y
+
+int age = 18;
+cout << (age >= 18) << "\n"; // 1 (true), old enough to vote
+cout << (age < 18) << "\n";  // 0 (false)
+
+int passwordLength = 5;
+cout << (passwordLength >= 8) << "\n"; // 0 (false), too short
+cout << (passwordLength < 8) << "\n";  // 1 (true), needs more characters
+
+
+
+
+
+// logical operators 
+// true (1) or false (0) 
+
+&& 	Logical and	    Returns true if both statements are true	                x < 5 &&  x < 10	
+|| 	Logical or	    Returns true if one of the statements is true	            x < 5 || x < 4	
+!	Logical not	    Reverse the result, returns false if the result is true	    !(x < 5 && x < 10)
+
+
+
+
+// operator precedence
+
+() - Parentheses
+*, /, % - Multiplication, Division, Modulus
++, - - Addition, Subtraction
+>, <, >=, <= - Comparison
+==, != - Equality
+&& - Logical AND
+|| - Logical OR
+= - Assignment
+

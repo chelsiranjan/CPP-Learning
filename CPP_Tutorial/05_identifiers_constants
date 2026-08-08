@@ -1,0 +1,10 @@
+// All C++ variables must be identified with unique names.
+// These unique names are called identifiers.
+
+int minutesPerHour = 60;
+
+// This will declare the variable as "constant", which means unchangeable and read-only
+// You should always declare the variable as constant when you have values that are unlikely to change
+
+const int minutesPerHour;
+minutesPerHour = 60; // error

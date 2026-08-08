@@ -1,0 +1,59 @@
+// int
+// double
+// char
+// string
+// bool
+
+// syntax
+// type variableName = value;
+
+#include <iostream>
+using namespace std;
+int main(){
+    int myNum = 15;
+    cout << myNum;
+    return 0;
+}
+
+
+int myNum;
+myNum = 10;
+cout << myNum;
+
+
+// changing variableName
+int myNum = 15;  // myNum is 15
+myNum = 10;  // Now myNum is 10
+cout << myNum;  // Outputs 10
+
+
+int myNum = 5;               // Integer (whole number without decimals)
+double myFloatNum = 5.99;    // Floating point number (with decimals)
+char myLetter = 'D';         // Character
+string myText = "Hello";     // String (text)
+bool myBoolean = true;       // Boolean (true or false)
+
+
+int myAge = 35;
+cout << "I am " << myAge << " years old.";
+
+
+string name = "John";
+int age = 35;
+double height = 6.1;
+cout << name << " is " << age << " years old and " << height << " feet tall.";
+
+
+int x = 5;
+int y = 6;
+int sum = x + y;
+cout << sum;
+
+
+int x = 5, y = 6, z = 50;
+cout << x + y + z;
+
+
+int x, y, z;
+x = y = z = 50;
+cout << x + y + z;
