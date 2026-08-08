@@ -1,0 +1,33 @@
+// && (AND) - all conditions must be true
+// || (OR) - at least one condition must be true
+// ! (NOT) - reverses a condition (true → false, false → true)
+
+// Use AND (&&) when both conditions must be true
+int a = 200;
+int b = 33;
+int c = 500;
+
+if (a > b && c > a) {
+  cout << "Both conditions are true";
+}
+
+
+// Use OR (||) when at least one of the conditions can be true
+int a = 200;
+int b = 33;
+int c = 500;
+
+if (a > b || a > c) {
+  cout << "At least one condition is true";
+}
+
+
+// The NOT operator (!) reverses a condition
+// If a condition is true, ! makes it false.
+// If a condition is false, ! makes it true.
+int a = 33;
+int b = 200;
+
+if (!(a > b)) {
+  cout << "a is NOT greater than b";
+}

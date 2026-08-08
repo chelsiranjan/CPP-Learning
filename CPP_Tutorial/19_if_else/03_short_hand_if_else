@@ -1,0 +1,25 @@
+//  short-hand if else, known as the ternary operator because it uses three operands
+//  ternary operator returns a value based on a condition: if the condition is true
+//  it returns the first value
+//  otherwise, it returns the second value
+
+// syntax
+// variable = (condition) ? expressionTrue : expressionFalse;
+
+int time = 20;
+if (time < 18) {
+  cout << "Good day.";
+} else {
+  cout << "Good evening.";
+}
+
+
+int time = 20;
+cout << ((time < 18) ? "Good day." : "Good evening.");
+
+
+int time = 22;
+string message = (time < 12) ? "Good morning."
+  : (time < 18) ? "Good afternoon."
+  : "Good evening.";
+cout << message;
