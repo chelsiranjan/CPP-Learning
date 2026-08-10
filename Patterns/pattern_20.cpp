@@ -1,9 +1,3 @@
-// 1
-// 2 2
-// 3 3 3
-// 4 4 4 4
-// 5 5 5 5 5
-
 
 #include <stdio.h>
 #include <iostream>
@@ -14,13 +8,13 @@ int main()
     int n;
     cin >> n;
     
-    for (int i=1; i<=n; i++){
-        for  (int j=1; j<=i; j++){
-            cout << i << " ";
+    char ch = 'A';
+    
+    for (int i =1; i<=n; i++){
+        for (int j =1; j<= n-i+1; j++){
+            cout << char(ch+i-1)<< "";
         }
         cout << endl;
-        
     }
     return 0;
 }
-
