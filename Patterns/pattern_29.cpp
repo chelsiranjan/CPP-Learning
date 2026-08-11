@@ -1,10 +1,10 @@
-// *
-// ** 
-// ***
-// ****
-// ***
-// **
-// *
+// *      *
+// **    **
+// ***  ***
+// ********
+// ***  ***
+// **    **
+// *      *
 
 
 #include <iostream>
@@ -29,10 +29,8 @@ int main()
 
         for(int j=0; j<stars; j++){
             cout << "*";
-    
         
         }
-        
         
         // spaces
         if(i <= n)
@@ -43,6 +41,31 @@ int main()
         for(int j=0; j<spaces; j++){
             cout << " ";
         }
+        
+        
+        
+        
+                // spaces
+        if(i <= n)
+            spaces = n-i;
+        else
+            spaces = i-n;
+
+        for(int j=0; j<spaces; j++){
+            cout << " ";
+        }
+
+        // stars
+        if(i <= n)
+            stars = i;
+        else
+            stars = 2*n-i;
+
+        for(int j=0; j<stars; j++){
+            cout << "*";
+        }
+
+        
 
 
         cout << endl;

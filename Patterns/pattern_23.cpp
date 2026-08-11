@@ -1,3 +1,9 @@
+//    A
+//   ABA
+//  ABCBA
+// ABCDCBA
+
+
 #include <iostream>
 using namespace std;
 

@@ -1,3 +1,9 @@
+//    A
+//   ABC
+//  ABCDE
+// ABCDEFG
+
+
 #include <iostream>
 using namespace std;
 

@@ -1,3 +1,9 @@
+// ABCD
+// ABC
+// AB
+// A
+
+
 #include <iostream>
 using namespace std;
 

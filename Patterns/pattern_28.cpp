@@ -15,6 +15,7 @@ int main()
     int ini_spaces = 0;
 
     for (int i = 0; i < n; i++) {
+        
         // stars
         for (int j = 0; j < n-i; j++) {
             cout << "*";
@@ -29,11 +30,10 @@ int main()
         for (int j = 0; j < n-i; j++) {
             cout << "*";
         }
+
         ini_spaces += 2;
         cout << endl;
-        
-    
-    }
+    }  
 
     return 0;
-}
+}   

@@ -1,3 +1,8 @@
+// A A A A
+// B B B
+// C C
+// D
+
 
 #include <stdio.h>
 #include <iostream>
