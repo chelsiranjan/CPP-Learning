@@ -14,7 +14,6 @@ Here, I'll be uploading the programs, practice problems, notes, and DSA implemen
 
 - Learn C++ from beginner to advanced
 - Build a strong understanding of programming fundamentals
-- Master Object-Oriented Programming (OOP)
 - Learn and utilize the Standard Template Library (STL)
 - Practice Data Structures & Algorithms
 - Strengthen problem-solving skills
