@@ -1,0 +1,18 @@
+// arrays are used to store multiple values in a single variable
+// instead of declaring separate variables for each value
+
+// string cars[4] = {"Volvo", "BMW", "Ford", "Mazda"};
+// int myNum[3] = {10, 20, 30};
+
+// accesing array element
+string cars[4] = {"Volvo", "BMW", "Ford", "Mazda"};
+cout << cars[0];
+// Outputs Volvo
+
+// array indexes start with 0: [0] is the first element. [1] is the second element, etc
+
+// changing array element
+string cars[4] = {"Volvo", "BMW", "Ford", "Mazda"};
+cars[0] = "Opel";
+cout << cars[0];
+// Now outputs Opel instead of Volvo
