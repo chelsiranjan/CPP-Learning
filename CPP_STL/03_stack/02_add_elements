@@ -1,0 +1,15 @@
+// to add elements to the stack, use the .push() function, after declaring the stack
+
+// Create a stack of strings called cars
+stack<string> cars;
+
+// Add elements to the stack
+cars.push("Volvo");
+cars.push("BMW");
+cars.push("Ford");
+cars.push("Mazda");
+
+// mazda (top element)
+// ford
+// bmw
+// volvo

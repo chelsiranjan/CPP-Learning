@@ -1,0 +1,15 @@
+// .push() function adds an element at the end of the queue
+
+// Create a queue of strings
+queue<string> cars;
+
+// Add elements to the queue
+cars.push("Volvo");
+cars.push("BMW");
+cars.push("Ford");
+cars.push("Mazda");
+
+// volve (front (first) element)
+// bmw
+// ford
+// mazda (back (last) element)

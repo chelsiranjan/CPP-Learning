@@ -1,0 +1,13 @@
+// queue stores multiple elements in a specific order, called FIFO
+// FIFO stands for First in, First Out eg supermarket
+// unlike vectors, elements in the queue are not accessed by index numbers
+// since queue elements are added at the end and removed from the front
+// you can only access an element at the front or the back
+// #include <queue>
+// queue<type> queueName
+
+// Create a queue of strings called cars
+queue<string> cars;
+
+queue<string> cars = {"Volvo", "BMW", "Ford", "Mazda"};
+// this is wrong

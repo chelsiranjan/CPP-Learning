@@ -1,0 +1,20 @@
+// .push_front() to insert an element at the beginning of the list 
+// .push_back() to add an element at the end
+
+#include <iostream>
+#include <list>
+using namespace std;
+
+int main() {
+  list<string> cars = {"Volvo", "BMW", "Ford", "Mazda"};
+
+  // Change the value of the first element
+  cars.front() = "Opel";
+
+  // Change the value of the last element
+  cars.back() = "Toyota";
+
+  cout << cars.front() << "\n";
+  cout << cars.back() << "\n";
+  return 0;
+}

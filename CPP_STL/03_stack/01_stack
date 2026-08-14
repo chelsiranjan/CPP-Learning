@@ -1,0 +1,11 @@
+// stack stores multiple elements in a specific order, called LIFO
+// LIFO stands for Last in, First Out
+// #include <stack>
+// stack<type> stackName
+
+
+stack<string> cars;
+
+// you cannot add elements to the stack at the time of declaration, like you can with vectors
+stack<string> cars = {"Volvo", "BMW", "Ford", "Mazda"}; 
+// this is wrong

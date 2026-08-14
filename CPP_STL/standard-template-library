@@ -1,0 +1,24 @@
+// STL library that consist of diff data structures n algorithms to effectively store and manipulate data
+// vector
+// list
+// stack
+// queue
+// deque
+// set
+// map
+// array
+// priority_queue
+// multiset
+// unordered_set
+// forward_list
+// unordered_multimap
+// multimap
+// unordered_map
+// pair
+// string
+// iterators
+// next_permutation
+
+// containers
+// iterators
+// algorithms
